@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: gray;
+}
+
+.container {
+    max-width: 820px;
+    padding: 50px 40px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.header_part {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.number p {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    background: rgba(74, 58, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.radio {
+    width: 160px;
+    height: 10px;
+    background: rgba(239, 240, 246, 1);
+    border-radius: 20px;
+    position: relative;
+}
+
+.radio::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(74, 58, 255, 1);
+    border-radius: 20px;
+}
+
+.number2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    background: rgba(239, 240, 246, 1);
+    color: rgba(111, 108, 144, 1);
+}
+
+.radio2 {
+    width: 160px;
+    height: 10px;
+    background: rgba(239, 240, 246, 1);
+    border-radius: 20px;
+}
+
+hr {
+    border: 2px solid rgba(217, 219, 233, 1);
+    margin-bottom: 50px;
+}
+
+.text_aria h1 {
+
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 20px;
+}
+
+.text_aria p {
+    width: 282px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(138, 138, 138, 1);
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.text_field {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.type {
+    margin-bottom: 30px;
+}
+
+.label_field {
+    margin-bottom: 30px;
+}
+
+.input_field select {
+    width: 360px;
+    padding: 10px 20px;
+    border: 1px solid rgba(225, 227, 230, 1);
+    border-radius: 10px;
+    background: #FFFFFF;
+}
+
+.address_2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.input_field input {
+    width: 360px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgba(225, 227, 230, 1);
+}
+
+.btn {
+    margin-top: 30px;
+}
+
+.btn input {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    background: none;
+    color: black;
+    font-size: 18px;
+    transition: all linear .3s;
+}
+
+.btn input:hover {
+    background: rgba(74, 58, 255, 1);
+    color: rgb(255, 255, 255, 1);
+}
